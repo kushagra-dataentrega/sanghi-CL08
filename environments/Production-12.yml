@@ -1,0 +1,11 @@
+fileVersion: 1
+id: "12"
+mappingDefinitions:
+  CL08:
+    database: SNOWFLAKE_SAMPLE_DATA
+    schema: TPCH_SF1
+  WORK2:
+    database: CL08
+    schema: WORKPROD
+name: Production
+type: Environment
